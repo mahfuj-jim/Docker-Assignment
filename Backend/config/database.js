@@ -5,6 +5,7 @@ dotenv.config();
 
 const databaseConnection = async (callback) => {
   try {
+    console.log(process.env.DATABASE_URL);
     if (process.env.DATABASE_URL) {
       const client = await mongoose.connect(process.env.DATABASE_URL, {
         useNewUrlParser: true,
