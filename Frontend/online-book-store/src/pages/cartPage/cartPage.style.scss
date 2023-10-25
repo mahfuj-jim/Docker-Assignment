@@ -1,0 +1,57 @@
+.cart-page-container {
+  margin-top: 100px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 50px;
+
+  .cart-page-title {
+    font-size: 36px;
+    font-weight: bolder;
+  }
+
+  .cart-full-details {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+
+    .cart-book-image{
+      width: 22%;
+    }
+
+    h4 {
+      font-size: 16.5px;
+    }
+
+    .cart-books {
+      flex-basis: 65%;
+    }
+
+    .cart-details {
+      flex-basis: 26%;
+
+      .cart-details-total {
+        color: rgba(106, 111, 115, 1);
+      }
+
+      .cart-total-price {
+        margin-top: 10px;
+        font-size: 34px;
+        // color: rgb(0, 72, 136);
+      }
+
+      .cart-promotion{
+        margin-top: 25px;
+
+        .cart-promotion-title{
+          margin-top: 20px;
+        }
+
+        .cart-promotion-input{
+          margin-top: 15px;
+          width: 100%;
+          display: flex;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+$auth-border-color: rgba(0, 0, 0, 0.3);
+
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  outline: none;
+}
+
+.auth-input{
+  margin-top: 12px;
+  width: 380px;
+  padding: 10px 15px;
+  border: 1px solid $auth-border-color;
+  border-radius: 4px;
+}
+
+.auth-input-half{
+  margin-top: 12px;
+  min-width: 165px;
+  max-width: 165px;
+  padding: 10px 15px;
+  border: 1px solid $auth-border-color;
+  border-radius: 4px;
+}
+
+.cart-promotion-input-field{
+  flex-basis: 80%;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.review-input{
+  margin-top: 20px;
+  width: 80%;
+  padding: 10px 15px;
+  border: 1px solid $auth-border-color;
+  border-radius: 4px;
+}
+
+.balance-input{
+  width: 94%;
+  margin: 20px auto 0px auto;
+  padding: 10px 10px;
+  border: 1px solid $auth-border-color;
+  border-radius: 4px;
+}

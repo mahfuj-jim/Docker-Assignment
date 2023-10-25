@@ -1,0 +1,71 @@
+.cart-item-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .cart-subtotal {
+    flex-basis: 14%;
+
+    h3 {
+      text-align: end;
+      margin-right: 10px;
+      font-size: 28px;
+      color: rgb(0, 72, 136);
+    }
+  }
+}
+
+.cart-book-details {
+  flex-basis: 40%;
+  margin-top: 22px;
+  margin-bottom: 30px;
+  display: flex;
+
+  .cart-book-information {
+    margin-left: 30px;
+
+    .book-title {
+      font-size: 18px;
+    }
+
+    .book-author {
+      margin-top: 8px;
+      font-size: 12px;
+      color: rgb(82, 82, 82);
+    }
+
+    .book-price-row {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+
+      .book-discount-price{
+        color: red;
+        font-size: 14px;
+        margin-right: 8px;
+      }
+
+      .book-price {
+        color: rgb(0, 72, 136);
+        font-size: 20px;
+      }
+    }
+
+    .book-genre {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+
+      p {
+        padding: 6px 8px;
+        background-color: rgb(224, 224, 224);
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+        border-radius: 4px;
+        margin-right: 4px;
+        margin-bottom: 2px;
+      }
+    }
+  }
+}

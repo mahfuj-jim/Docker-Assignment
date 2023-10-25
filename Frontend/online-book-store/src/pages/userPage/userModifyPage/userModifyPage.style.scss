@@ -1,0 +1,47 @@
+$primary-color: rgb(231, 231, 231);
+
+.sidebar-and-content-container {
+  display: flex;
+  align-items: flex-start;
+  height: 100dvh;
+
+  .book-modify-page-container {
+    margin-top: 35px;
+    margin-left: 300px;
+    margin-bottom: 40px;
+
+    .book-modify-page-title {
+      text-align: start;
+      font-size: 32px;
+      color: black;
+    }
+
+    .book-modify-page-subtitle {
+      text-align: start;
+      margin-top: 12px;
+      font-size: 16px;
+      color: rgb(82, 82, 82);
+    }
+
+    .book-modify-page-card {
+      margin: 25px auto;
+      display: flex;
+      justify-content: center;
+
+      .book-modify-page-input-field-row {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+      }
+
+      .book-modify-page-input-field {
+        position: relative;
+        margin-top: 18px;
+
+        .book-modify-input-field-title {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

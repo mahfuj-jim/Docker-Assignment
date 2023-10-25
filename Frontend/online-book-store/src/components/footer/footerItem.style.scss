@@ -1,0 +1,29 @@
+.footer-column {
+  flex-basis: 18%;
+  padding: 0 20px;
+
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+  }
+
+  li {
+    cursor: pointer;
+    margin: 15px 0;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: transform 0.2s ease;
+
+    &:hover {
+      color: white;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}

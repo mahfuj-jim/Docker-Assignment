@@ -1,0 +1,92 @@
+.book-card-container {
+  position: relative;
+  padding: 5px;
+  margin: 5px 6px;
+  transition: all 0.3s ease;
+  opacity: 1;
+
+  .book-card-details {
+    padding: 0px 5px;
+
+    .rating {
+      margin-top: 8px;
+    }
+
+    .book-card-title {
+      margin-top: 10px;
+      font-size: 14.5px;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+    }
+
+    .book-card-author {
+      margin-top: 6px;
+      font-size: 12px;
+      color: rgb(82, 82, 82);
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+    }
+
+    .book-card-price-row {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+
+      .book-card-discount-price {
+        font-size: 13px;
+        margin-right: 8px;
+        color: red;
+      }
+
+      .book-card-price {
+        font-size: 15px;
+        font-weight: bolder;
+      }
+    }
+  }
+
+  .cart-button {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  }
+
+  .view-button {
+    opacity: 0;
+    position: absolute;
+    top: 94.8%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
+
+.book-card-container:hover {
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.book-card-container:hover .book-card-details {
+  opacity: 0.2;
+}
+
+.book-card-container:hover .book-card-image {
+  opacity: 0.2;
+}
+
+.book-card-container:hover .cart-button {
+  opacity: 1;
+}
+
+.book-card-container:hover .view-button {
+  opacity: 1;
+}

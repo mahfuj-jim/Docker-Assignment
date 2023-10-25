@@ -1,0 +1,28 @@
+.header-favourite-icon {
+  width: 24px;
+  height: 24px;
+  color: rgb(63, 63, 63);
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 30px;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(0, 153, 255);
+  }
+}
+
+.header-top-thunder-icon{
+  padding-top: 2px;
+  height: 30px;
+}
+
+.book-card-image{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.book-image{
+  width: 80%;
+  border-radius: 10px;
+}

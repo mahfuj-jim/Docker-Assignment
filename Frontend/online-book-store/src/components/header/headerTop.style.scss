@@ -1,0 +1,113 @@
+$primary-color: rgb(231, 231, 231);
+$secondary-color: rgba(51, 51, 51, 1);
+
+$header-text-color: white;
+$header-text-size: 14px;
+$header-padding: 0px 12.5px 0px 8px;
+
+.header-top-container {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 34px;
+
+  .header-top-offer {
+    background-color: $secondary-color;
+    width: fit-content;
+    padding: $header-padding;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+
+    .header-top-offer-text {
+      color: $header-text-color;
+      font-size: $header-text-size;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .header-top-icon-cirle-right {
+      margin-left: 8px;
+      color: $header-text-color;
+      height: 14px;
+    }
+  }
+
+  .header-top-help-login {
+    height: 100%;
+    display: flex;
+
+    .header-top-help {
+      display: flex;
+
+      margin-right: 20px;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(0, 72, 136);
+        text-decoration: underline;
+      }
+
+      .header-top-icon-help {
+        height: 14px;
+      }
+
+      .header-top-login-text {
+        margin-left: 6px;
+        font-size: $header-text-size;
+      }
+    }
+
+    .header-top-bulk {
+      display: flex;
+      color: $header-text-color;
+      align-items: center;
+      background-color: rgba(43, 182, 115, 1);
+      height: 100%;
+      padding: 0px 24px;
+      margin-right: 50px;
+      cursor: pointer;
+
+      .header-top-bulk-text {
+        margin-left: 10px;
+        font-size: $header-text-size;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .header-top-icon-bulk {
+        height: 12px;
+      }
+    }
+
+    .header-top-login {
+      color: rgba(2, 117, 216, 1);
+      margin-right: 20px;
+      margin-left: 50px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(0, 72, 136);
+        text-decoration: underline;
+      }
+
+      .header-top-icon-signin {
+        height: 14px;
+      }
+
+      .header-top-login-text {
+        margin-left: 5px;
+        font-size: $header-text-size;
+      }
+    }
+  }
+}

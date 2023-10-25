@@ -1,0 +1,56 @@
+.book-table {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 8px;
+  
+      th {
+        background-color: #f4f4f4;
+        text-align: left;
+        padding: 10px;
+        font-weight: 600;
+      }
+  
+      tr {
+        border-bottom: 1px solid #f0f0f0;
+  
+        td {
+          padding: 15px;
+          vertical-align: middle;
+  
+          img {
+            max-width: 60px;
+            max-height: 60px;
+            border-radius: 4px;
+          }
+        }
+  
+        .view-icon,
+        .edit-icon,
+        .delete-icon {
+          font-size: 18px;
+          margin-right: 10px;
+          cursor: pointer;
+  
+          &.view-icon {
+            color: rgb(194, 194, 194);
+          }
+  
+          &.edit-icon {
+            color: rgb(194, 194, 194);
+          }
+  
+          &.delete-icon {
+            color: rgb(194, 194, 194);
+          }
+        }
+      }
+    }
+  }
+  
+  .author-about-column{
+    width: 50%;
+  }

@@ -1,0 +1,51 @@
+.home-page {
+  margin-top: 20px;
+  display: flex;
+
+  .filter-and-sort {
+    flex-basis: 8%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  select {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .home-page-container {
+    .home-page-catagory {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      margin: 60px auto 60px auto;
+      width: 85%;
+    }
+
+    .page-btn {
+      width: 85%;
+      margin: 0 auto 80px;
+    }
+
+    .page-btn span {
+      display: inline-block;
+      border: 1px solid #00027c;
+      margin-left: 10px;
+      width: 40px;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+
+    .page-btn span:hover {
+      background: #00027c;
+      color: white;
+    }
+  }
+}
